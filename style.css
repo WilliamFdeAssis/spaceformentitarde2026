@@ -2,6 +2,10 @@
 #banner{
     width: 100%;
 }
+.principal{
+    padding: 30px;
+    background-color: #cccccc;
+}
 
 h1{
     text-align: center;
@@ -14,6 +18,25 @@ em strong{
     color: red;
 }
 
+.beneficios{
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin: 0 15% 0 0;
+}
+
 .itens{
     font-style: italic;
+}
+
+.imagembeneficios{
+    width: 50%;
 }
