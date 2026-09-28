@@ -26,28 +26,38 @@
         <form action="">
 
             <label for="nome">Nome e Sobrenome</label>
-            <input type="text" id="nome">
+            <input type="text" id="nome" class="inputs-padrao" required>
 
             <label for="email">E-mail</label>
-            <input type="text" id="email">
+            <input type="email" id="email" class="inputs-padrao" required placeholder="seuemail@dominio.com">
 
             <label for="tel">Telefone</label>
-            <input type="text" id="tel">
+            <input type="tel" id="tel" class="inputs-padrao" required placeholder="(99)99999-9999">
 
             <label for="mensagem">Mensagem</label>
             <textarea name="" id="" cols="67" rows="10"></textarea>
 
-            <label for="radio-email">e-mail</label>
-            <input type="radio" name="contato" id="radio-email">
+            <legend>Como prefere o nosso contato?</legend>
 
-            <label for="radio-telefone">telefone</label>
-            <input type="radio" name="contato" id="radio-telefone">
+            <label for="radio-email"><input type="radio" name="contato" id="radio-email">e-mail</label>
+         
 
-            <label for="radio-whatsapp">whatsapp</label>
-            <input type="radio" name="contato" id="radio-whatsapp">
+            <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">telefone</label>
+           
 
-            <label for="checkbox">Gostaria de receber nossas novidade por e-mail</label>
-            <input type="checkbox" name="" id="checkbox">
+            <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">whatsapp</label>
+      
+            <legend>Qual horário prefere ser atendido?</legend>
+            <select name="" id="">
+                <option value="">Manhã</option>
+                <option value="">Tarde</option>
+                <option value="">Noite</option>
+
+            </select>
+           
+
+            <label for="checkbox"><input type="checkbox" name="" id="checkbox" class="checkbox">Gostaria de receber nossas novidade por e-mail</label>
+          
 
 
     
